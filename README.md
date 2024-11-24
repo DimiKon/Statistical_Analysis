@@ -1,6 +1,8 @@
+
 # Statistical Tests and Data Analysis
 
 The notebook explores quantitative data analysis with Python, focusing on statistical tests and visualizations. It covers data preparation, exploratory analysis, and various statistical techniques.
+
 ---
 
 ## Libraries Used
@@ -31,15 +33,12 @@ data = {
     'score': [144.6, 33.2, 86.6, ...]
 }
 df = pd.DataFrame(data)
+```
 
 ---
 
 ## Statistical Tests
 
-The following tests are conducted:
-
 - **Bartlett's Test**: Checks homogeneity of variances across groups.
 - **ANOVA**: Analyzes differences in means across multiple groups.
 - **Normality Tests**: Verifies if data follows a normal distribution using methods like Shapiro-Wilk or Kolmogorov-Smirnov.
-
-
